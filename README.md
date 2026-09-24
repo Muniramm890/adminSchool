@@ -1,0 +1,2 @@
+# adminSchool
+adin folders
