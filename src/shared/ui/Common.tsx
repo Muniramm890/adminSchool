@@ -6,7 +6,7 @@ import { Icon } from './Icon';
 
 
 
-export const KpiCard = ({ label, value, sub, icon, color, trend }) => (
+export const KpiCard = ({ label, value, sub = undefined, icon, color, trend = undefined }) => (
   <div className="kpi-card">
     <div
       style={{
