@@ -4,7 +4,7 @@
 
 
 
-export const Icon = ({ name, size = 16, color }) => {
+export const Icon = ({ name, size = 16, color = "currentColor" }) => {
   const icons = {
     dashboard: "M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z",
     students:
@@ -65,8 +65,7 @@ export const Icon = ({ name, size = 16, color }) => {
         "M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2 M9 11a4 4 0 100-8 4 4 0 000 8z M23 21v-2a4 4 0 00-3-3.87 M16 3.13a4 4 0 010 7.75",
     book:
         "M4 19.5A2.5 2.5 0 016.5 17H20 M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z",
-     close:
-        "M18 6L6 18M6 6l12 12",
+     
      logout:
             "M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4M16 17l5-5-5-5M21 12H9",
  };
